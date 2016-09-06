@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/top_news_image"
+        android:src="@drawable/topnews_item_default"
+        />
+    <TextView
+        android:id="@+id/top_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="20sp"
+        android:text="阿嘎嘎地发嘎地方官阿嘎嘎地发嘎地方官阿嘎嘎地发嘎地方官阿嘎嘎地发嘎地方官阿嘎嘎地发嘎地方官"
+        android:ellipsize="end"
+        android:layout_toRightOf="@+id/top_news_image"
+        android:layout_marginLeft="5dp"
+        android:gravity="bottom"
+      />
+    <TextView
+        android:id="@+id/top_news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-09-01 22:00"
+        android:layout_alignBottom="@+id/top_news_image"
+        android:layout_alignStart="@+id/top_news_title" />
+</RelativeLayout>
